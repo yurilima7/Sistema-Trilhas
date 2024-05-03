@@ -15,8 +15,10 @@ Este é o front inicial do sistema para cadastro no programa Inova Trilhas do Go
 - Escolha de continuar ou não o cadastro (Choice): Escolher entre Sim, quero continuar e Não, preencher depois.
 - Envio de arquivos (Docs): RG, comprovante de residência, comprovante de bancário e certificado de conclusão (médio ou superior)
 
-## Contato
+## Veja o projeto
+- Site: [sistemainovatrilhas.netlify.app](https://sistemainovatrilhas.netlify.app)
 
+## Contato
 - Email: yurilimadev7@gmail.com
 - LinkedIn: [linkedin.com/in/yuri-lima7](https://www.linkedin.com/in/yuri-lima7/)
 - Portifólio: [yurilimadev.netlify.app](https://yurilimadev.netlify.app)
