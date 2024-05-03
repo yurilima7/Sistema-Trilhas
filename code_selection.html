@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main>
+        <section class="sectionForm">
+            <h1 class="sectionFormTitlePage">Escolha uma opção</h1>
+
+            <h2 class="sectionFormDescripton">Onde deseja receber o código de confirmação?</h2>
+
+            <form class="sectionFormStyle" action="code_verify.html" onsubmit="return validateForm()">
+
+                <div class="sectionFormStyleRadios">
+                    <label class="formControl">
+                        <input type="radio" name="option" value="email">
+                        Receber no e-mail
+                    </label >
+
+                    <label class="formControl">
+                        <input type="radio" name="option" value="telefone">
+                        Receber no telefone
+                    </label>
+                </div>
+
+                <button class="sectionFormStyleButton">Prosseguir</button>
+                <a class="sectionFormStyleOutlinedButton" href="index.html">Cancelar</a>
+            </form>
+        </section>
+
+        <img class="trilhasImg" src="assets/images/trilhas.png" alt="Imagem com a logo do Trilhas e o mapa do Maranhão no fundo">
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

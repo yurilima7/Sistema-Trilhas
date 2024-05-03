@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main>
+        <section class="sectionForm">
+            <h1 class="sectionFormTitlePage">Cadastre-se</h1>
+
+            <form class="sectionFormStyle" action="personal_info.html" onsubmit="return verifyInputs()">
+
+                <div class="sectionFormStyleInputs">
+                    <input id="emailInput" type="email" placeholder="E-mail" required>
+                    <input id="passwordInput" type="password" placeholder="Senha" required>
+                    <input id="confirmPasswordInput" type="password" placeholder="Confirmar Senha" required>
+                </div>
+
+                <h2 class="sectionFormStyleAlert">*Atenção: Todos os dados acima são obrigatórios</h2>
+
+                <button class="sectionFormStyleButton" type="submit" >Criar Conta</button>
+                <a class="sectionFormStyleOutlinedButton" href="index.html">Fazer Login</a>
+            </form>
+        </section>
+
+        <img class="trilhasImg" src="assets/images/trilhas.png" alt="Imagem com a logo do Trilhas e o mapa do Maranhão no fundo">
+    </main>
+
+    <script src="js/register_script.js"></script>
+</body>
+</html>

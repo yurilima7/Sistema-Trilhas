@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código de Confirmação</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main>
+        <section class="sectionForm">
+            <h1 class="sectionFormTitlePage">Código de confirmação</h1>
+
+            <h2 class="sectionFormDescripton">Digite o código que enviamos.</h2>
+
+            <form class="sectionFormStyle" action="address.html" onsubmit="return validateCod()">
+
+                <div class="sectionFormStyleNumbers">
+                    <input id="inputNumber" type="number" maxlength="1" oninput="moveToNextInput(this)">
+                    <input id="inputNumber" type="number" maxlength="1" oninput="moveToNextInput(this)">
+                    <input id="inputNumber" type="number" maxlength="1" oninput="moveToNextInput(this)">
+                    <input id="inputNumber" type="number" maxlength="1" oninput="moveToNextInput(this)">
+                    <input id="inputNumber" type="number" maxlength="1" oninput="moveToNextInput(this)">
+                    <input id="inputNumber" type="number" maxlength="1" oninput="moveToNextInput(this)">
+                </div>
+
+                <button class="sectionFormStyleButton" type="submit" >Prosseguir</button>
+                <a class="sectionFormStyleOutlinedButton" href="index.html">Cancelar</a>
+            </form>
+        </section>
+
+        <img class="trilhasImg" src="assets/images/trilhas.png" alt="Imagem com a logo do Trilhas e o mapa do Maranhão no fundo">
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
